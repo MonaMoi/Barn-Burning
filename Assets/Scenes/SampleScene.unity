@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 005705ad28fe0481e9858534c6a096b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vrCamera: {fileID: 0}
+  vrCamera: {fileID: 621559686}
   toggleAngle: 30
   speed: 3
   moveForward: 0
