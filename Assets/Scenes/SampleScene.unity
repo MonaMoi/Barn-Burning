@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_Fog: 1
+  m_FogColor: {r: 0.32941177, g: 0.29803923, b: 0.29803923, a: 1}
+  m_FogMode: 2
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -27,7 +27,7 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.113
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.33838937, g: 0.33401647, b: 0.2939185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -362,17 +362,17 @@ PrefabInstance:
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1
+      value: -7.66808e-36
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 0
+      value: 7.33e-43
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1257.5999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
@@ -464,7 +464,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.425e-42, y: 3.1400048e+38, z: 1.425e-42, w: -8.08914e-36}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -475,13 +475,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.9655583, y: 0.0073058517, z: 0.2594214, w: -0.018557655}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 182.271, y: -30.072998, z: -0.25698853}
 --- !u!4 &236724180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6484995189051822533, guid: 2e859255bdbf1e340a8028529c92d56f,
