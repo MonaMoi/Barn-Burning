@@ -44,7 +44,8 @@ public class FinalFire : MonoBehaviour
         Instantiate(Prefab8, Spawnpoint8.position, Spawnpoint8.rotation);
         Instantiate(Prefab9, Spawnpoint9.position, Spawnpoint9.rotation);
         Instantiate(Prefab10, Spawnpoint10.position, Spawnpoint10.rotation);
-       Instantiate(Prefab11, Spawnpoint11.position, Spawnpoint11.rotation);
+        Instantiate(Prefab11, Spawnpoint11.position, Spawnpoint11.rotation);
+
 
     }
 

@@ -1142,13 +1142,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271201030}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.015567541, y: 3.492551, z: -6.97731}
-  m_LocalScale: {x: 0.079816416, y: 0.12674671, z: 0.079816416}
+  m_LocalRotation: {x: -0.0007213364, y: 0.69781744, z: 0.002112129, w: 0.7162722}
+  m_LocalPosition: {x: 15.433, y: 3.651, z: -2.9969}
+  m_LocalScale: {x: 0.11418537, y: 0.18132386, z: 0.11418537}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.22800002, y: 88.504005, z: 0.116000004}
 --- !u!102 &1271201032
 TextMesh:
   serializedVersion: 3
@@ -1157,8 +1157,10 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271201030}
-  m_Text: "Finde die Scheune nahe des Flusses. \nDie N\xE4he einer Scheune wirst du
-    h\xF6ren. H\xF6re gut hin!"
+  m_Text: "       Finde die Scheune nahe des Flusses. \nDie N\xE4he einer Scheune
+    wirst du h\xF6ren. H\xF6re gut hin! \nUnd halte immer Ausschau nach Hinweisen!
+    \  \n            \n                I\n                I\n                I\n                                                           ---
+    --- --- --- --- --- --- --- --- >"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
