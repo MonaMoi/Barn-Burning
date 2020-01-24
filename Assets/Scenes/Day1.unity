@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.33838925, g: 0.33401647, b: 0.29391846, a: 1}
+  m_IndirectSpecularColor: {r: 0.33838996, g: 0.3340171, b: 0.2939185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -920,12 +920,12 @@ PrefabInstance:
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -7.66808e-36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.33e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
@@ -1146,6 +1146,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182441439320753, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 136.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182441439320753, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -35.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182441439320753, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182440435945684, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 110.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182440435945684, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182440435945684, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -33.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182440268840320, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 155.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182440268840320, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -33.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480182440268840320, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 48.27
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6420484738956937930, guid: 2e859255bdbf1e340a8028529c92d56f, type: 3}
@@ -1564,7 +1609,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4e-45}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 1.83672e-40, w: -3.11e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3078,7 +3123,7 @@ RectTransform:
   m_GameObject: {fileID: 513043112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8.883369, y: 8.883369, z: 8.883369}
+  m_LocalScale: {x: 6.5621448, y: 6.5621448, z: 6.5621448}
   m_Children: []
   m_Father: {fileID: 207682105}
   m_RootOrder: 0
@@ -12414,13 +12459,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072547052}
-  m_LocalRotation: {x: -0.5760349, y: -0.44414908, z: 0.46987855, w: 0.50012964}
-  m_LocalPosition: {x: -0.30171, y: -0.55083, z: -0.53717}
-  m_LocalScale: {x: 0.08392566, y: 0.08392566, z: 0.08392566}
+  m_LocalRotation: {x: -0.55779964, y: -0.46684492, z: 0.44948807, w: 0.51853245}
+  m_LocalPosition: {x: -0.06668592, y: -0.13372289, z: -0.68901867}
+  m_LocalScale: {x: 0.024336148, y: 0.024336148, z: 0.024336148}
   m_Children: []
   m_Father: {fileID: 629128710}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -9.137, y: -93.378006, z: 96.117004}
+  m_LocalEulerAnglesHint: {x: -9.137, y: -93.378006, z: 91.53001}
 --- !u!102 &2072547054
 TextMesh:
   serializedVersion: 3
@@ -12429,7 +12474,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072547052}
-  m_Text: Suche die erste Scheune im Wald
+  m_Text: "Suche die erste Scheune \nim Wald"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.33838925, g: 0.33401647, b: 0.29391846, a: 1}
+  m_IndirectSpecularColor: {r: 0.33838996, g: 0.3340171, b: 0.2939185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1564,7 +1564,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4e-45}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2129,14 +2129,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339416943}
-  m_LocalRotation: {x: -0, y: 0.9659582, z: -0, w: -0.25869846}
+  m_LocalRotation: {x: -0, y: -0.002669506, z: -0, w: -0.9999964}
   m_LocalPosition: {x: -114.55, y: -2.7408, z: 3.11}
   m_LocalScale: {x: 1.0062478, y: 2.7962775, z: 1.0062478}
   m_Children:
   - {fileID: 1807955288}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 209.986, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 360.306, z: 0}
 --- !u!1001 &345867618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12414,13 +12414,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072547052}
-  m_LocalRotation: {x: -0.5760349, y: -0.44414908, z: 0.46987855, w: 0.50012964}
-  m_LocalPosition: {x: -0.30171, y: -0.55083, z: -0.53717}
-  m_LocalScale: {x: 0.08392566, y: 0.08392566, z: 0.08392566}
+  m_LocalRotation: {x: -0.54508907, y: -0.47679165, z: 0.44886363, w: 0.5235161}
+  m_LocalPosition: {x: -0.28, y: -0.32, z: -0.85}
+  m_LocalScale: {x: 0.02733284, y: 0.02733284, z: 0.02733284}
   m_Children: []
   m_Father: {fileID: 629128710}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -9.137, y: -93.378006, z: 96.117004}
+  m_LocalEulerAnglesHint: {x: -8.204, y: -92.832, z: 89.838005}
 --- !u!102 &2072547054
 TextMesh:
   serializedVersion: 3
@@ -12429,7 +12429,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072547052}
-  m_Text: Suche die erste Scheune im Wald
+  m_Text: "Suche die erste Scheune \nim Wald"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

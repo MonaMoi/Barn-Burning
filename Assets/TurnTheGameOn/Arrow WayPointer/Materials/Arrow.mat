@@ -71,12 +71,16 @@ Material:
     - _DstBlend: 10
     - _EmissionLM: 0
     - _EmissionScaleUI: 0.33
+    - _GlossMapScale: 1
     - _Glossiness: 0
+    - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Shininess: 0.01
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 0
