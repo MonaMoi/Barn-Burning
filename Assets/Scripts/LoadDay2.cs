@@ -6,7 +6,7 @@ using UnityEngine;
 public class LoadDay2 : MonoBehaviour
 {
     public Transform target;
- 
+ // public int index = 3;
 
     void OnTriggerEnter(Collider other)
     {
@@ -22,9 +22,10 @@ public class LoadDay2 : MonoBehaviour
         yield return new WaitForSeconds(10.0f);
 
         SceneManager.LoadScene(3);
+       // SceneManager.LoadScene(index);
+        
     }
 
- 
 }
 
 
