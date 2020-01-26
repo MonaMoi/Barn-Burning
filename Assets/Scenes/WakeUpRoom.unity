@@ -1157,9 +1157,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271201030}
-  m_Text: "       Finde die Scheune nahe des Flusses. \nDie N\xE4he einer Scheune
-    wirst du h\xF6ren. H\xF6re gut hin! \nUnd halte immer Ausschau nach Hinweisen!
-    \  \n            \n                I\n                I\n                I\n                                                           ---
+  m_Text: "       Finde die Scheunen... \nDie N\xE4he einer Scheune wirst du h\xF6ren.
+    H\xF6re gut hin! \nUnd halte immer Ausschau nach Hinweisen!   \n            \n
+    \               I\n                I\n                I\n                                                           ---
     --- --- --- --- --- --- --- --- >"
   m_OffsetZ: 0
   m_CharacterSize: 1
