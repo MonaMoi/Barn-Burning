@@ -14,6 +14,8 @@ Weiterhin ist die Umgebung an die Kurzgeschichte angelehnt, speziell an die dort
 
 Einige Elemente, die die Paranoia des Protagonisten/Users unterstreichen und eine surreale Umgebung betonen sollen, befinden sich noch in Arbeit. So werden wir beispielsweise das Verschwinden von Objekte oder die Stimmen der Figuren erst in der finalen Version implementiert haben.
 
+Für ein optimales Erlebnis sollte der User Kopfhörer benutzen.
+
 # Der Spielverlauf
 Unser Spiel beginnt mit dem Menü: hier kann man auswählen, ob man direkt mit dem eigentlichen Spiel beginnt oder sich zunächst ein Intro mit der Vorgeschichte der Charaktere ansieht. Dieses Intro ist bisher noch nicht finalisiert und daher noch nicht im Prototypen enthalten. Wenn man auf ,,PLAY” drückt, kommt man dann in die erste Szene des Spiels: man befindet sich in einem ,,Aufwachraum”, die Wohnung des Protagonisten. Hier findet sich an der Wand eine erste Spielanleitung, die den Spieler dazu bewegt, sich auf die Suche nach der ersten Scheune zu machen. Wenn er sich der Tür nähert, wechselt die Szene und man befindet sich draußen, vor seinem Haus. In dieser Szene, die den ersten Tag darstellt, soll der Spieler nach der ersten Scheune suchen. 
 
@@ -25,3 +27,4 @@ Wenn der User sich in die richtige Richtung und näher zur Scheune bewegt, werde
 ![Bild 1](screenshots/Bild4.png)
 
 Des Weiteren werden wir die Missionen in einer Szene implementieren, um die Dateigröße des Android Packages zu verringern.
+
