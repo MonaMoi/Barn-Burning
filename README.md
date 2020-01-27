@@ -22,3 +22,5 @@ Die Scheunen sind alle denen aus der Kurzgeschichte nachempfunden, so befindet s
 Wenn der User sich in die richtige Richtung und näher zur Scheune bewegt, werden Sounds abgespielt, die je nach Nähe lauter werden. So hört er unter anderem ein Schnipsen und nach kurzer Zeit wird der nächste Tag/ die nächste Szene getriggert. Dieser Ablauf wiederholt sich viermal. Bei der letzten Scheune ertönt ein zusätzliches Feuer-Knacken, was ihm zum Feuer leiten und ein bedrückendes Gefühl verschaffen soll. Wenn er dann nah genug vor der Scheune steht, beginnt diese zu brennen. In Zukunft wird man eine weibliche Figur, die an Haemi erinnern soll, neben der Scheune stehen sehen. 
 
 ![Bild 1](screenshots/Bild4.png)
+
+Des Weiteren werden wir die Missionen in einer Szene implementieren, um die Dateigröße des Android Packages zu verringern.
