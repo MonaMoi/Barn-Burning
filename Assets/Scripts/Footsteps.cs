@@ -2,41 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Die Klasse ist dafür da, dass bei einem Klick, eine Audiodatei mit einem einzelnen Fußschritt abgespielt wird.
 public class Footsteps : MonoBehaviour
 {
     public AudioSource steps;
-    public bool walk;
 
-
+    // Bei klicken des "Fire1" Button, wird die Methode audioOn() gestartet. Bei loslassen des Buttons die Methode AudioOff().
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) { audioOn(); walk = true; }
-        if (Input.GetButtonUp("Fire1")) { audioOff(); walk = false; }
+        if (Input.GetButtonDown("Fire1")) { audioOn() ;}
+        if (Input.GetButtonUp("Fire1")) { audioOff() ;}
     }
 
+
+    // Audio wird gestartet.
     void audioOn()
     {
-        /* steps.loop
-         steps.Play();
-          var loop = steps.isPlaying;
-          if (loop)  {
-              steps.volume = Random.Range(0.8f, 1);
-              GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.1f);
-              GetComponent<AudioSource>().Play();
-          }*/
-
-        /* for(var i = 0; walk == true; i++) {
-               GetComponent<AudioSource>().volume = Random.Range(0.8f, 1);
-               GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.1f);
-               steps.Play();
-               if (walk == false) return;
-
-           }*/
-
         steps.Play();
-        
     }
 
+    // Audio wird gestoppt.
     void audioOff()
     {
         steps.Stop();

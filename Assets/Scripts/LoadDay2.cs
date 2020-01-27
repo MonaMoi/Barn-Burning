@@ -10,16 +10,12 @@ public class LoadDay2 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Object Entered the trigger");
-        Debug.Log("Object is within trigger");
-
         StartCoroutine("LoadLevelDelay");
-
     }
 
     private IEnumerator LoadLevelDelay()
     {
-        yield return new WaitForSeconds(10.0f);
+        yield return new WaitForSeconds(5.0f);
 
         SceneManager.LoadScene(3);
        // SceneManager.LoadScene(index);

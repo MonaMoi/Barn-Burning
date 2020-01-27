@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Start der einzelnen Feuerpunte beim Betreten des Triggers.
 public class FinalFire : MonoBehaviour
 {
+    // Variablen zur örtlichen Bestimmung und zum Laden des gewünschten Prefabs.
     public Transform Spawnpoint;
     public GameObject Prefab;
     public Transform Spawnpoint1;
@@ -29,10 +31,9 @@ public class FinalFire : MonoBehaviour
     public Transform Spawnpoint11;
     public GameObject Prefab11;
 
+    // Erstellung einer Instanz beim Betreten des Triggers.
     void OnTriggerEnter (Collider other)
     {
-        Debug.Log ("Object Entered the trigger");
-        Debug.Log("Object is within trigger");
         Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
         Instantiate(Prefab1, Spawnpoint1.position, Spawnpoint1.rotation);
         Instantiate(Prefab2, Spawnpoint2.position, Spawnpoint2.rotation);
@@ -49,12 +50,4 @@ public class FinalFire : MonoBehaviour
 
     }
 
-    void OnTriggerStay (Collider other)
-    {
-         }
-
-    void OnTriggerExit (Collider other)
-    {
-        Debug.Log("Object Exit the trigger");
-    }
 }

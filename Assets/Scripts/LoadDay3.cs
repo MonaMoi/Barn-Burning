@@ -9,11 +9,7 @@ public class LoadDay3 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Object Entered the trigger");
-        Debug.Log("Object is within trigger");
-
         StartCoroutine("LoadLevelDelay");
-
     }
 
     private IEnumerator LoadLevelDelay()

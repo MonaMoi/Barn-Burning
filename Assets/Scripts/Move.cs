@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Steurung des Players
 public class Move : MonoBehaviour
 {
+    // Variable zur Einstellung der Geschwindigkeit 
     public int Speed;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+    
 
-    // Update is called once per frame
+    // Bei Klicken des Button wird die Position verändert.
     void Update()
     {
         if (Input.GetButton("Fire1"))

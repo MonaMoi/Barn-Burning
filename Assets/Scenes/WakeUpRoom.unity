@@ -1522,13 +1522,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7a529090d6b76c4d80b2b07ffb76672, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.04
+  m_Volume: 0.03
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 206
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 0.7762661
   MaxDistance: 500
@@ -1619,7 +1619,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   steps: {fileID: 1494163874}
-  walk: 0
 --- !u!114 &1494163876
 MonoBehaviour:
   m_ObjectHideFlags: 0

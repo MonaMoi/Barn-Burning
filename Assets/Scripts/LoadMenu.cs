@@ -7,15 +7,13 @@ public class LoadMenu : MonoBehaviour
 {
     public Transform target;
 
+    // Beim Betreten des Triggers startet die Coroutine.
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Object Entered the trigger");
-        Debug.Log("Object is within trigger");
-
         StartCoroutine("LoadLevelDelay");
-
     }
 
+    // 
     private IEnumerator LoadLevelDelay()
     {
         yield return new WaitForSeconds(5.0f);
