@@ -18,6 +18,9 @@ public class TextManager : MonoBehaviour
     private string i2 = "Sein Gesichtsausdruck war etwas nichtssagend, aber er sah gut aus und machte keinen schlechten Eindruck";
     private string j = "Er erzählte, dass er Handelsgeschäfte betreibe, doch über den Inhalt dieser Geschäfte sagte er nichts weiter";
     private string k = "Ich habe ihn danach mehrmals wiedergetroffen. Jedes Mal, wenn ich ihr zufällig irgendwo begegnete, stand er mit Sicherheit neben ihr. Verabredete ich mich mit ihr, brachte er sie mit dem Auto zu unserem Treffpunkt";
+    //private string x = "";
+    //private string x = "";
+    //private string x = ""; ...
 
     void Start()
     {

@@ -14,9 +14,9 @@ public class LoadDay5 : MonoBehaviour
 
     private IEnumerator LoadLevelDelay()
     {
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(4.0f);
 
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
     }
 
 
