@@ -1503,6 +1503,7 @@ GameObject:
   - component: {fileID: 1494163876}
   - component: {fileID: 1494163875}
   - component: {fileID: 1494163874}
+  - component: {fileID: 1494163880}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1669,14 +1670,30 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494163873}
-  m_LocalRotation: {x: 0, y: 0.026176924, z: 0, w: 0.99965733}
-  m_LocalPosition: {x: 4.248, y: 2.39, z: -5.8}
+  m_LocalRotation: {x: -0.4809499, y: 0.51834387, z: 0.48086277, w: 0.5184379}
+  m_LocalPosition: {x: 3.5, y: 2.05, z: -3.99}
   m_LocalScale: {x: 1.0062478, y: 1.5979, z: 1.0062478}
   m_Children:
   - {fileID: 2059057935}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 3, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.990005, z: 0}
+--- !u!111 &1494163880
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494163873}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 49baaeb952c6215469a68e8be796e8a8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 49baaeb952c6215469a68e8be796e8a8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1772398490
 PrefabInstance:
   m_ObjectHideFlags: 0
