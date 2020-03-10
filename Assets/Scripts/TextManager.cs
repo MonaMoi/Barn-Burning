@@ -7,17 +7,42 @@ public class TextManager : MonoBehaviour
 {
 
     private TextMeshPro test;
-    private string a = "Ich hatte Hae-mi auf der Hochzeitsfeier eines Bekannten kennengelernt und mich mit ihr angefreundet";
-    private string b = "Ihr Einkommen war minimal und sie lebte vom Wohlwollen ihrer Liebhaber";
-    private string c = "Wir trafen uns nicht besonders häufig. Meist ein-, höchstens zwei Mal im Monat";
-    private string d = "Wir gingen zusammen essen oder tranken etwas in einer Bar. Und wir führten leidenschaftliche Gespräche";
-    private string e = "Natürlich bezahlte ich immer die Rechnung für das, was wir tranken und aßen. Manchmal rief auch sie mich an, meistens dann, wenn sie kein Geld, aber Hunger hatte";
-    private string f = "Sie flog nach Algerien und bat mich in der Zeit Ihre Katze zu füttern. Jeden Tag ging ich bei ihr vorbei. Die Katze bekam ich aber nie zu Gesicht";
-    private string g = "Drei Monate später war sie wieder da. Sie hatte drei Kilo abgenommen und war braungebrannt… Und sie brachte einen neuen Liebhaber mit";
-    private string h = "Er war Mitte bis Ende zwanzig und groß, war korrekt gekleidet und hatte eine höfliche Art zu reden";
-    private string i2 = "Sein Gesichtsausdruck war etwas nichtssagend, aber er sah gut aus und machte keinen schlechten Eindruck";
-    private string j = "Er erzählte, dass er Handelsgeschäfte betreibe, doch über den Inhalt dieser Geschäfte sagte er nichts weiter";
-    private string k = "Ich habe ihn danach mehrmals wiedergetroffen. Jedes Mal, wenn ich ihr zufällig irgendwo begegnete, stand er mit Sicherheit neben ihr. Verabredete ich mich mit ihr, brachte er sie mit dem Auto zu unserem Treffpunkt";
+    private string a = "Ich hatte Hae-mi auf der Hochzeitsfeier eines Bekannten kennengelernt.";
+    private string b = "Wir trafen uns nicht besonders häufig. Meist ein-, höchstens zwei Mal im Monat.";
+    private string c = "Wir gingen zusammen essen und führten leidenschaftliche Gespräche.";
+    private string d = "Natürlich bezahlte ich immer die Rechnung für das, was wir tranken und aßen. Manchmal rief auch sie mich an, meistens dann, wenn sie kein Geld, aber Hunger hatte.";
+    private string e = "Eines Tages fuhr sie nach Algerien und brachte drei Monate später einen Liebhaber mit.";
+    private string f = "Er war Geschäftsmann, sah gut aus und machte im Ganzen keinen schlechten Eindruck.";
+    private string g = "Beide besuchten mich an einem Abend.";
+    private string h = "Wir aßen zusammen, tranken Bier und rauchten etwas Gras.";
+    private string i2 = "Als der Joint zu Ende war, sagte sie, dass sie müde sei. Sie wird immer sofort müde. Ich begleitete sie in den ersten Stock und brachte sie ins Bett.";
+    private string j = "Im Wohnzimmer hatte ihr Freund einen zweiten Joint gedreht. Er war wirklich zäh.";
+    private string k = "Manchmal brenne ich Scheunen ab.";
+    private string l = "Wie bitte?";
+    private string m = "Manchmal brenne ich Scheunen ab";
+    private string n = "Hier hielt er inne und schnippte.";
+    //Schnipp
+    private string o = "»Es ist ganz einfach. Ich gieße Benzin aus und werfe ein brennendes Streichholz hinein. Das Feuer lodert auf und das war’s. Es dauert keine fünfzehn Minuten, bis alles verbrannt ist.«";
+    //Schnipp
+    private string p = "»Das heißt also, dass Sie Scheunen von anderen Leuten abbrennen ?«";
+    private string q = "»Natürlich. Es sind anderer Leute Scheunen. Deswegen ist es ja schließlich eine Straftat. Es ist genauso eindeutig eine Straftat, wie Sie und ich jetzt hier einen Joint rauchen.«";
+    private string r = "»Ich stecke also mutwillig Scheunen, die anderen Leuten gehören, in Brand. Natürlich wähle ich dabei die aus, bei denen kein großes Feuer entstehen kann. Ich möchte ja kein Feuer verursachen. Ich möchte einfach bloß Scheunen abbrennen.«";
+    //Schnipp
+    private string s = "Das stimmt wahrscheinlich, dachte ich. Außerdem würde sicherlich niemand auf die Idee kommen, dass ein gut gekleideter junger Mann in einem ausländischen Wagen herumfuhr und Scheunen abbrannte.";
+    private string t = "»Weiß sie davon?«";
+    private string u = "»Sie hat keine Ahnung. Um die Wahrheit zu sagen, außer Ihnen habe ich bis jetzt niemandem davon erzählt.Das klingt vielleicht komisch. Ich habe das Gefühl, als gäbe es in der Welt eine Menge Scheunen, die alle darauf warten, von mir abgebrannt zu werden.«";
+    //Schnipp
+    private string v = "»Und wann werden Sie die nächste abbrennen?«";
+    private string w = "»Das weiß ich nicht.«";
+    private string x = "»Steht schon fest, welche Scheune Sie als Nächstes abbrennen?«";
+    private string y = "»Ja. Das steht fest.«";
+    private string z = "»Es ist eine richtig gute Scheune. Seit langem mal wieder eine, die sich abzubrennen lohnt. Tatsächlich bin ich heute hierher gekommen, um sie zu inspizieren.« »Das heißt, sie ist hier in der Nähe.« »Ganz in der Nähe«";
+    private string a1 = "»Ich werde auf die Scheunen achten«";
+    private string a2 = "»Ja. Es ist jedenfalls ganz nah.«";
+    private string empty = "";
+    private string empty2 = "";
+    //Schnippppppppp
+
     //private string x = "";
     //private string x = "";
     //private string x = ""; ...
@@ -43,64 +68,69 @@ public class TextManager : MonoBehaviour
 
     private IEnumerator changeText()
     {
-        // for(int i = 0; i < 3; i++) { 
-        yield return new WaitForSeconds(0f);
-        for (int i = 9; i <10; i++) {
-            if (test.text == a)
-            {
+        //test.text = a;
+        yield return new WaitForSeconds(3.25f); //Hier ist, solange a da ist, danach kommt b
+        test.text = b;
+        yield return new WaitForSeconds(4.25f);
+        test.text = c;
+        yield return new WaitForSeconds(3.75f);
+        test.text = d;
+        yield return new WaitForSeconds(8.75f);
+        test.text = e;
+        yield return new WaitForSeconds(4.75f);
+        test.text = f;
+        yield return new WaitForSeconds(4.25f);
+        test.text = g;
+        yield return new WaitForSeconds(2.55f);
+        test.text = h;
+        yield return new WaitForSeconds(3.75f);
+        test.text = i2;
+        yield return new WaitForSeconds(8.25f);
+        test.text = j;
+        yield return new WaitForSeconds(4.75f);
+        test.text = empty;
+        yield return new WaitForSeconds(1.25f);
+        test.text = k;
+        yield return new WaitForSeconds(2.75f);
+        test.text = l;
+        yield return new WaitForSeconds(1.25f);
+        test.text = empty;
+        yield return new WaitForSeconds(1.25f);
+        test.text = m;
+        yield return new WaitForSeconds(3.25f);
+        test.text = empty;
+        yield return new WaitForSeconds(1.25f);
+        test.text = n;
+        yield return new WaitForSeconds(5.25f);
+        test.text = o;
+        yield return new WaitForSeconds(12.25f);
+        test.text = p;
+        yield return new WaitForSeconds(5.25f);
+        test.text = q;
+        yield return new WaitForSeconds(11.25f);
+        test.text = r;
+        yield return new WaitForSeconds(11.25f);
+        test.text = s;
+        yield return new WaitForSeconds(6.25f);
+        test.text = t;
+        yield return new WaitForSeconds(2.25f);
+        test.text = u;
+        yield return new WaitForSeconds(15.0f);
+        test.text = v;
+        yield return new WaitForSeconds(2.5f);
+        test.text = w;
+        yield return new WaitForSeconds(2.0f);
+        test.text = x;
+        yield return new WaitForSeconds(3.0f);
+        test.text = y;
+        yield return new WaitForSeconds(1.5f);
+        test.text = z;
+        yield return new WaitForSeconds(9.0f);
+        test.text = a1;
+        yield return new WaitForSeconds(2.0f);
+        test.text = a2;
 
-                yield return new WaitForSeconds(5.0f); //Hier ist, solange a da ist, danach kommt b
-                test.text = b;
-                
-
-            }
-            else if (test.text == b)
-            {
-                yield return new WaitForSeconds(5.0f);
-                test.text = c;
-            }
-            else if (test.text == c)
-            {
-                yield return new WaitForSeconds(5.0f);
-                test.text = d;
-            }
-            else if (test.text == d)
-            {
-                yield return new WaitForSeconds(6.0f);
-                test.text = e;
-            }
-            else if (test.text == e)
-            {
-                yield return new WaitForSeconds(9.0f);
-                test.text = f;
-            }
-            else if (test.text == f)
-            {
-                yield return new WaitForSeconds(10.0f);
-                test.text = g;
-            }
-            else if (test.text == g)
-            {
-                yield return new WaitForSeconds(8.0f);
-                test.text = h;
-            }
-            else if (test.text == h)
-            {
-                yield return new WaitForSeconds(6.0f);
-                test.text = i2;
-            }
-            else if (test.text == i2)
-            {
-                yield return new WaitForSeconds(6.0f);
-                test.text = j;
-            }
-            else if (test.text == j)
-            {
-                yield return new WaitForSeconds(7.0f);
-                test.text = k;
-            }
-            StartCoroutine("changeText");
-        }
+       
     }
 }
 
