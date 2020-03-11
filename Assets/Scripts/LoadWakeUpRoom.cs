@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class LoadDay2 : MonoBehaviour
+public class LoadWakeUpRoom : MonoBehaviour
 {
-    public Transform target;
- // public int index = 3;
-
-    void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
         StartCoroutine("LoadLevelDelay");
     }
@@ -17,12 +15,6 @@ public class LoadDay2 : MonoBehaviour
     {
         yield return new WaitForSeconds(4.0f);
 
-        SceneManager.LoadScene(7);
-       // SceneManager.LoadScene(index);
-        
+        SceneManager.LoadScene(5);
     }
-
 }
-
-
-

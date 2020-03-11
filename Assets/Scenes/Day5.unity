@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.32941177, g: 0.29803923, b: 0.29803923, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.03
@@ -1145,36 +1145,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.y
-      value: -7.66808e-36
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.z
-      value: 7.33e-43
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_BounceIntensity
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6480637848135978922, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1248,6 +1218,36 @@ PrefabInstance:
     - target: {fileID: 6420706167187954697, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -7.66808e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.33e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_BounceIntensity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6480929824234141865, guid: 2e859255bdbf1e340a8028529c92d56f,

@@ -3,24 +3,18 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class LoadDay3 : MonoBehaviour
+public class LoadAlbtraum : MonoBehaviour
 {
-    public Transform target;
-
-    void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
         StartCoroutine("LoadLevelDelay");
     }
 
     private IEnumerator LoadLevelDelay()
     {
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(150.0f);
 
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(4);
     }
-
-
 }
-
-
-
