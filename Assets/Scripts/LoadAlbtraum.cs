@@ -13,7 +13,7 @@ public class LoadAlbtraum : MonoBehaviour
 
     private IEnumerator LoadLevelDelay()
     {
-        yield return new WaitForSeconds(150.0f);
+        yield return new WaitForSeconds(148.0f);
 
         SceneManager.LoadScene(4);
     }

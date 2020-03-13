@@ -586,6 +586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613803441}
   - component: {fileID: 613803442}
+  - component: {fileID: 613803443}
   m_Layer: 0
   m_Name: JongZu
   m_TagString: Untagged
@@ -609,7 +610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.5, y: 0}
+  m_AnchoredPosition: {x: -80.4, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &613803442
@@ -622,7 +623,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 12801185c7feb564fa84f9fea4d5136d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7760f545826f2ee4eb4ab76ca06cf75d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -708,6 +709,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &613803443
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613803440}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: -300
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.59
+  m_ReflectionsLevel: -1219
+  m_ReverbLevel: 441
+  m_ReverbDelay: 0.011
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 13
 --- !u!4 &655320283
 Transform:
   m_ObjectHideFlags: 0
@@ -1535,6 +1559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1829140143}
   - component: {fileID: 1829140144}
+  - component: {fileID: 1829140145}
   m_Layer: 0
   m_Name: Ben
   m_TagString: Untagged
@@ -1558,7 +1583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.8, y: 0}
+  m_AnchoredPosition: {x: 82.7, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1829140144
@@ -1571,7 +1596,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dc5561fb38808544c9b7844f32583a71, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 664775952e7858040948077ee57088ab, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1657,6 +1682,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &1829140145
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829140142}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: -300
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.59
+  m_ReflectionsLevel: -1219
+  m_ReverbLevel: 441
+  m_ReverbDelay: 0.011
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 13
 --- !u!1 &2024246235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,7 +1718,6 @@ GameObject:
   - component: {fileID: 2024246237}
   - component: {fileID: 2024246236}
   - component: {fileID: 2024246240}
-  - component: {fileID: 2024246241}
   - component: {fileID: 2024246242}
   m_Layer: 0
   m_Name: Player
@@ -1747,7 +1794,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 890b1aedbdd072644a1ecf797694a48d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9fc25fbd47358484bb100de04c58a27c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1833,18 +1880,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!168 &2024246241
-AudioEchoFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024246235}
-  m_Enabled: 0
-  m_Delay: 10
-  m_DecayRatio: 0.5
-  m_WetMix: 1
-  m_DryMix: 1
 --- !u!164 &2024246242
 AudioReverbFilter:
   m_ObjectHideFlags: 0
@@ -1852,22 +1887,22 @@ AudioReverbFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024246235}
-  m_Enabled: 0
+  m_Enabled: 1
   m_DryLevel: 0
   m_Room: -1000
-  m_RoomHF: -1200
+  m_RoomHF: -300
   m_DecayTime: 1.49
-  m_DecayHFRatio: 0.54
-  m_ReflectionsLevel: -370
-  m_ReverbLevel: 1030
+  m_DecayHFRatio: 0.59
+  m_ReflectionsLevel: -1219
+  m_ReverbLevel: 441
   m_ReverbDelay: 0.011
   m_Diffusion: 100
-  m_Density: 60
+  m_Density: 100
   m_HFReference: 5000
   m_RoomLF: 0
   m_LFReference: 250
   m_ReflectionsDelay: 0
-  m_ReverbPreset: 4
+  m_ReverbPreset: 13
 --- !u!1001 &1975549953173397699
 PrefabInstance:
   m_ObjectHideFlags: 0
