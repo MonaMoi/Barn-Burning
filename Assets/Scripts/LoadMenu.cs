@@ -16,7 +16,7 @@ public class LoadMenu : MonoBehaviour
     // 
     private IEnumerator LoadLevelDelay()
     {
-        yield return new WaitForSeconds(50.0f);
+        yield return new WaitForSeconds(4.0f);
 
         SceneManager.LoadScene(2);
     }

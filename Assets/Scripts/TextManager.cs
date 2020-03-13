@@ -55,16 +55,7 @@ public class TextManager : MonoBehaviour
         test.text = a;
     }
 
-    void Update()
-    {
-        
-    }
 
-
-    private void TextClear()
-    {
-        test.text = "";
-    }
 
     private IEnumerator changeText()
     {
@@ -140,8 +131,8 @@ public class TextManager : MonoBehaviour
         test.text = a1;
         yield return new WaitForSeconds(2.0f);
         test.text = a2;
-
-       
+        //LoadNextScene lns = new LoadNextScene();
+        //lns.NextScene();
     }
 }
 

@@ -68,23 +68,23 @@ public class FinalFire : MonoBehaviour
     private IEnumerator SpawnFire(){
 
         Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.4F);
         Instantiate(Prefab1, Spawnpoint1.position, Spawnpoint1.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.4F);
         Instantiate(Prefab2, Spawnpoint2.position, Spawnpoint2.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.4F);
         Instantiate(Prefab3, Spawnpoint3.position, Spawnpoint3.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.3F);
         Instantiate(Prefab4, Spawnpoint4.position, Spawnpoint4.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.3F);
         Instantiate(Prefab5, Spawnpoint5.position, Spawnpoint5.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.3F);
         Instantiate(Prefab6, Spawnpoint6.position, Spawnpoint6.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.3F);
         Instantiate(Prefab7, Spawnpoint7.position, Spawnpoint7.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.3F);
         Instantiate(Prefab8, Spawnpoint8.position, Spawnpoint8.rotation);
-        yield return new WaitForSeconds(0.5F);
+        yield return new WaitForSeconds(0.3F);
         Instantiate(Prefab9, Spawnpoint9.position, Spawnpoint9.rotation);
         yield return new WaitForSeconds(0.2F);
         Instantiate(Prefab10, Spawnpoint10.position, Spawnpoint10.rotation);

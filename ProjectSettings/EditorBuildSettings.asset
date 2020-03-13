@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Splash1.unity
+    path: 
     guid: ac3352a8f3c473248ac8d0d8e8f565a1
   - enabled: 0
-    path: Assets/Scenes/Splash2.unity
+    path: 
     guid: 6d5b23e86a4f97d458b6f25baee1601c
   - enabled: 1
     path: Assets/Scenes/Titel.unity
@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Introduction.unity
     guid: af3f4234687bf40c38df6e139109d64b
   - enabled: 1
-    path: Assets/Scenes/Albtraum.unity
+    path: Assets/Scenes/BeginAlbtraum.unity
     guid: 359e1b6c61d29394c9c2f0c65b2e0662
   - enabled: 1
     path: Assets/Scenes/WakeUpRoom.unity
@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day5.unity
     guid: f032bd051c794426cacc6bdcb08f063c
+  - enabled: 1
+    path: Assets/Scenes/EndAlbtraum.unity
+    guid: 64d55b60da6e8b242aa85b7de2b0e872
   m_configObjects: {}
