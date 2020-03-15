@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.32941177, g: 0.29803923, b: 0.29803923, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.03
@@ -1924,8 +1924,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.4481564e+32, y: 6.0484315e+28, z: 4.232551e+21,
-    w: 6.797264e-33}
+  m_BoundingSphereOverride: {x: 6.05e-43, y: 4.9e-44, z: 0, w: -2.5631064e+11}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -10529,7 +10528,7 @@ GameObject:
   - component: {fileID: 1517037394}
   - component: {fileID: 1517037393}
   m_Layer: 0
-  m_Name: WindyTreeSound
+  m_Name: NatureSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

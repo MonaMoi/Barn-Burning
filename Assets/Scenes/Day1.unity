@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.32941177, g: 0.29803923, b: 0.29803923, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.03
@@ -1691,6 +1691,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 7aac06128c1d4f543914f69ebbdf7307, type: 3}
+--- !u!1 &110165537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3089110722599440927, guid: 2e859255bdbf1e340a8028529c92d56f,
+    type: 3}
+  m_PrefabInstance: {fileID: 110165534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &110165538
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110165537}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1dbf1784e35250145a7d14b09cf80fc4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &120793118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1996,7 +2021,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.1094e-41, y: 1.02e-43, z: 2.4737e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.435e-42, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -10361,7 +10386,7 @@ GameObject:
   - component: {fileID: 1517037394}
   - component: {fileID: 1517037393}
   m_Layer: 0
-  m_Name: WindyTreeSound
+  m_Name: NatureSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11238,7 +11263,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 40f0727727cb4e343bc095e4f033a38e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.68
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11648,6 +11673,7 @@ GameObject:
   - component: {fileID: 1673859561}
   - component: {fileID: 1673859567}
   - component: {fileID: 1673859568}
+  - component: {fileID: 1673859569}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -11850,7 +11876,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1673859568
+--- !u!111 &1673859568
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673859560}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 22151710ad4809449866236517ea0b2e, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1673859569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11859,11 +11900,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1673859560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 723d0619a2fa6f149a279275bef20ca3, type: 3}
+  m_Script: {fileID: 11500000, guid: b988ef6d05baf30408629aa5bcf5c23f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Source: {fileID: 0}
-  Source2: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1001 &1683372445
 PrefabInstance:
   m_ObjectHideFlags: 0
