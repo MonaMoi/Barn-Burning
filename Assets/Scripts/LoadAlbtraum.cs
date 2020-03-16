@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class LoadAlbtraum : MonoBehaviour
 {
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +16,8 @@ public class LoadAlbtraum : MonoBehaviour
     private IEnumerator LoadLevelDelay()
     {
         yield return new WaitForSeconds(148.0f);
-
-        SceneManager.LoadScene(4);
+        animator.SetTrigger("FadeOut");
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

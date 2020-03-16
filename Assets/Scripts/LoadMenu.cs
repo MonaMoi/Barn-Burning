@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class LoadMenu : MonoBehaviour
 {
-    public Transform target;
+    public Animator animator;
 
     // Beim Betreten des Triggers startet die Coroutine.
-    void OnTriggerEnter(Collider other)
+    void Start()
     {
         StartCoroutine("LoadLevelDelay");
     }
@@ -16,8 +16,10 @@ public class LoadMenu : MonoBehaviour
     // 
     private IEnumerator LoadLevelDelay()
     {
+        animator.SetTrigger("FadeÍn");
         yield return new WaitForSeconds(4.0f);
-
+        animator.SetTrigger("FadeOut");
+        yield return new WaitForSeconds(1.0f);
         SceneManager.LoadScene(2);
     }
 
