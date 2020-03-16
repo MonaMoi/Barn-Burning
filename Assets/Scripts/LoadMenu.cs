@@ -20,7 +20,7 @@ public class LoadMenu : MonoBehaviour
         yield return new WaitForSeconds(4.0f);
         animator.SetTrigger("FadeOut");
         yield return new WaitForSeconds(1.0f);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
 
