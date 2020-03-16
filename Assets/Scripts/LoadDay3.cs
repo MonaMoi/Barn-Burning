@@ -16,7 +16,7 @@ public class LoadDay3 : MonoBehaviour
     {
         yield return new WaitForSeconds(4.0f);
 
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(7);
     }
 
 
