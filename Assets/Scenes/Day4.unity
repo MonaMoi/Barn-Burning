@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.33838996, g: 0.3340171, b: 0.2939185, a: 1}
+  m_IndirectSpecularColor: {r: 0.33838925, g: 0.33401647, b: 0.29391846, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1533,21 +1533,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bf04db69fd9b85f4ba8d2985f4da93c0, type: 2}
-    - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.9056604
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.5058824
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.3972944
-      objectReference: {fileID: 0}
     - target: {fileID: 6115503042896101935, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1617,6 +1602,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.g
       value: 0.5058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.3972944
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6420484738956937930, guid: 2e859255bdbf1e340a8028529c92d56f, type: 3}
@@ -8884,7 +8884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df91c95799fcd4f889927e361cf7eeb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 20
+  Speed: 10
 --- !u!136 &1033452932
 CapsuleCollider:
   m_ObjectHideFlags: 0
