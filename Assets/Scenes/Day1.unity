@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.33838925, g: 0.33401647, b: 0.29391846, a: 1}
+  m_IndirectSpecularColor: {r: 0.33838996, g: 0.3340171, b: 0.2939185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1324,22 +1324,22 @@ PrefabInstance:
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 7.3382253e+34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.8605347e+34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.816722e+31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 7.2128377e+22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187965258289, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
@@ -1599,12 +1599,12 @@ PrefabInstance:
     - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.7176471
+      value: 0.5058824
       objectReference: {fileID: 0}
     - target: {fileID: 6484995187929955916, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.4
+      value: 0.39607844
       objectReference: {fileID: 0}
     - target: {fileID: 6115503042896101935, guid: 2e859255bdbf1e340a8028529c92d56f,
         type: 3}
@@ -1666,6 +1666,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 30f10229070292e469b2b3f7e476e76a, type: 2}
+    - target: {fileID: 6480337194677506840, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -35.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484995187855053155, guid: 2e859255bdbf1e340a8028529c92d56f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5058824
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6420484738956937930, guid: 2e859255bdbf1e340a8028529c92d56f, type: 3}
     - {fileID: 6420706167187954697, guid: 2e859255bdbf1e340a8028529c92d56f, type: 3}
@@ -2021,7 +2031,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.435e-42, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4e-45}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -4067,7 +4077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563108018}
   m_LocalRotation: {x: -0.20264554, y: 0.17387345, z: -0.7113481, w: 0.65014356}
-  m_LocalPosition: {x: 38.92, y: -3.9, z: -2.3}
+  m_LocalPosition: {x: 38.92, y: -3.96, z: -2.3}
   m_LocalScale: {x: 0.8001852, y: 5.847597, z: 5.847595}
   m_Children:
   - {fileID: 2133140123}
@@ -7031,7 +7041,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.78902745, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 20
+  m_Range: 14.515693
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
