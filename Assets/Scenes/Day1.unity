@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.33838925, g: 0.33401647, b: 0.29391846, a: 1}
+  m_IndirectSpecularColor: {r: 0.33838996, g: 0.3340171, b: 0.2939185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3065,7 +3065,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.2968943e-38, y: NaN, z: 2.20405e-39, w: -9.1835e-41}
+  m_BoundingSphereOverride: {x: -1.114e-42, y: 6e-45, z: 2.4e-44, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -4410,25 +4410,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc0e112cbd18014b949f3a70acc6f9b, type: 3}
---- !u!1 &428894184 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6483757977039584700, guid: 2e859255bdbf1e340a8028529c92d56f,
-    type: 3}
-  m_PrefabInstance: {fileID: 110165534}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &428894188
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428894184}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.2518737, y: 0.18250012, z: 0.14062504}
-  m_Center: {x: -34.792023, y: -1.0593685, z: -0.7160171}
 --- !u!1001 &432886838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6115,25 +6096,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 929990875}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &776484117 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6483973997515613930, guid: 2e859255bdbf1e340a8028529c92d56f,
-    type: 3}
-  m_PrefabInstance: {fileID: 110165534}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &776484121
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776484117}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.2518737, y: 0.18250012, z: 0.14062504}
-  m_Center: {x: -34.792023, y: -1.0593686, z: -0.9635172}
 --- !u!1001 &776653041
 PrefabInstance:
   m_ObjectHideFlags: 0
